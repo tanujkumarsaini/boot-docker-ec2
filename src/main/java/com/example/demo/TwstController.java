@@ -10,7 +10,7 @@ public class TwstController {
     @GetMapping
     public Object hello() {
         Map<String, String> object = new HashMap<>();
-        object.put("name", "Integration Ninjas Tanuj");
+        object.put("name", "Integration Ninjas Tanujj");
         object.put("email", "integrationninjas@gmail.com");
         return object;
     }

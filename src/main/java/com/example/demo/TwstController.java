@@ -14,5 +14,12 @@ public class TwstController {
         object.put("email", "integrationninjas@gmail.com");
         return object;
     }
+    @GetMapping("/test")
+    public Object hello2() {
+        Map<String, String> object = new HashMap<>();
+        object.put("hello", "java");
+        object.put("hello", "tanuj");
+        return object;
+    }
 
 }

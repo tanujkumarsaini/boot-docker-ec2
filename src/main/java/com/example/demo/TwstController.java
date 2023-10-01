@@ -18,7 +18,7 @@ public class TwstController {
     public Object hello2() {
         Map<String, String> object = new HashMap<>();
         object.put("hello", "java");
-        object.put("hello", "tanuj");
+        object.put("Hi", "tanuj");
         return object;
     }
 

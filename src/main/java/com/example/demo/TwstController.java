@@ -21,5 +21,12 @@ public class TwstController {
         object.put("Hi", "tanuj");
         return object;
     }
+    @GetMapping("/test2")
+    public Object hello3() {
+        Map<String, String> object = new HashMap<>();
+        object.put("hello", "Yashika");
+        object.put("Hi", "tanuj");
+        return object;
+    }
 
 }
